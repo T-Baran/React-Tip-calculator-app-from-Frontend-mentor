@@ -10,6 +10,7 @@ export const GlobalStyled = createGlobalStyle`
 
     body{
         font-family: 'Space Mono', monospace;
+        font-weight: 700;
         background-color: hsl(185, 41%, 84%) ;
         
     }

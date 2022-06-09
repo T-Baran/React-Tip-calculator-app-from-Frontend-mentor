@@ -1,11 +1,11 @@
-import BillValue from "./BillValue";
+import LabelInput from "./LabelInput";
 import SelectTip from "./SelectTip";
 const Inputcomponent = () => {
   return (
     <>
-      <BillValue />
+      <LabelInput image="dolar" label="Bill" />
       <SelectTip />
-      <div>Inputcomponent</div>
+      <LabelInput image="human" label="Number of People" />
     </>
   );
 };
