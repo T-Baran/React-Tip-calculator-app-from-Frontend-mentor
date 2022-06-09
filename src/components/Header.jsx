@@ -14,8 +14,10 @@ const Header = () => {
 const StyledH1 = styled.h1`
   color: hsl(183, 100%, 15%);
   letter-spacing: 7px;
-  text-align: center;
-  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15vh;
 `;
 
 export default Header;

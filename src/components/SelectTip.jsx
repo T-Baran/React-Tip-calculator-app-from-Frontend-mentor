@@ -19,12 +19,14 @@ const SelectTip = () => {
 
 const StyledP = styled.p`
   color: hsl(184, 14%, 56%);
+  margin-bottom: 5px;
 `;
 
 const StyledDiv = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  margin-bottom: 20px;
 `;
 
 const StyledInput = styled.input`
@@ -32,13 +34,14 @@ const StyledInput = styled.input`
   width: 100%;
   border: none;
   border-radius: 5px;
+  background-color: #e8efef;
   color: hsl(183, 100%, 15%);
   text-align: center;
   &:hover {
     outline: 2px solid hsl(186, 14%, 43%);
   }
   &:focus {
-    outline: none;
+    outline: 2px solid hsl(186, 14%, 43%);
   }
 
   -moz-appearance: textfield;

@@ -9,13 +9,15 @@ const LabelInput = ({ label, image }) => {
     background-image: url(${icon[image]});
     background-repeat: no-repeat;
     background-position: 8px 50%;
-    background-color: hsl(189, 41%, 97%);
+    background-color: #e8efef;
     border: none;
     border-radius: 5px;
     text-align: right;
-    padding: 8px;
+    padding: 4px 8px;
     font-size: 24px;
     color: hsl(183, 100%, 15%);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 
     -moz-appearance: textfield;
 

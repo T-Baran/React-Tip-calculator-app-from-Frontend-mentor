@@ -11,9 +11,13 @@ const Button = styled.button`
   font-size: 24px;
   border: none;
   text-align: center;
+  /* height: 50px; */
 
   &::after {
     content: " %";
+  }
+  &:hover {
+    background-color: hsl(172, 67%, 45%);
   }
 `;
 export default TipButton;
